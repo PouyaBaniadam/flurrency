@@ -99,11 +99,11 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: mikhak
+    - family: Mikhak
       fonts:
-        - asset: assets/fonts/MIKHAK-LIGHT.ttf
+        - asset: assets/fonts/mikhak_light.ttf
           weight: 700
-        - asset: assets/fonts/MIKHAK-BLACK.ttf
+        - asset: assets/fonts/mikhak_black.ttf
           weight: 300
   #         style: italic
   #   - family: Trajan Pro
