@@ -12,7 +12,6 @@ import 'package:intl/intl.dart';
 import 'package:flutter/cupertino.dart';
 import 'dart:developer' as developer;
 
-
 void main() {
   runApp(const Flurrency());
 }
@@ -111,7 +110,6 @@ class _MainState extends State<Main> {
   }
 
   Future getResponse(BuildContext context) async {
-
     var url = "https://redlenz.ir/currency";
     developer.log("message");
     var response = await http.get(Uri.parse(url));
@@ -198,7 +196,8 @@ class _MainState extends State<Main> {
                             .titleLarge, // Set the color to red
                       ),
                       TextSpan(
-                        text: "  قیمت لحظه ای ارز های مختلف را به شما نمایش می‌دهد.",
+                        text:
+                            "  قیمت لحظه ای ارز های مختلف را به شما نمایش می‌دهد.",
                         style: Theme.of(context).textTheme.bodyMedium,
                       ),
                     ],
